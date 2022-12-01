@@ -1,9 +1,1 @@
-<h1>Url shortener</h1>
-<input type="text" [formControl]="url">
-<button (click)="sendRequest()">Shorten</button>
-
-<ng-container *ngIf="shortenedLinks.length">
-  <ul>
-    <li *ngFor="let link of shortenedLinks">{{link}}</li>
-  </ul>
-</ng-container>
+<app-shortener></app-shortener>
